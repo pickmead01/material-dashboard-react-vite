@@ -14,6 +14,7 @@
     "build:staging:oogiri": "env-cmd -f environments/staging/.env.oogiri.staging yarn build",
     "build:prod:mu": "env-cmd -f environments/production/.env.mu.production yarn build",
     "build:prod:oogiri": "env-cmd -f environments/production/.env.oogiri.production yarn build",
+    "build:prod:pickme": "env-cmd -f environments/production/.env.pickme.production yarn build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "react-scripts test --env=jsdom"
